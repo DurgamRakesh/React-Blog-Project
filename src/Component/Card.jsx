@@ -6,7 +6,7 @@ const Card = (props) => {
     <Link to='/SinglePageDetails'>
     <NavLink state={{
         title:title,
-        imgUrl:imgUrl,
+        img:imgUrl,
         description:description,
         id:techId
     }} to={`${techId}`}>
