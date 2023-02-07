@@ -147,3 +147,119 @@
 .home-stories-footer .home_left img{
     width: 100%;
 }
+
+@media only screen and (min-width:200px)  and (max-width:800px){
+    .containerfor_3cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5%;
+    }
+    .imgdiv-1{
+        width: 100%;
+    }
+    .imgdiv-1 img{
+        width: 100%; 
+        border-radius: 10px;
+        height: 100%;
+    }
+    .imgdiv-2{
+        width: 100%;
+    }
+    .latest-stories-div{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid black;
+    }
+    .latest-stories-div .home_left_section{
+        width: 100%;
+        height: fit-content;
+        padding: .5rem;
+        margin: .5rem;
+    }
+    .latest-stories-div .home_left_section img{
+        width: 80%;
+    }
+    .latest-stories-div .home_left_section h4{
+        margin: .5rem;
+        color: black;
+        text-decoration: underline 1px red;
+    }
+    .latest-stories-div .home_left_section a{
+        text-decoration: none;
+    }
+    .latest-stories-div .home_left_section p{
+        color: black;
+        font-size: 14px;
+    }
+    .latest-s-head{
+       text-align: center;
+    }
+    .latest-articals-div .rightbar2{
+       display: none;
+    }
+    .latest-articals-div .sidebar2{
+        width: 80%;
+        margin: 0 auto;
+        border: 2px solid black;
+    }
+    .latest-articals-div .sidebar2 img{
+        width: 80%;
+    }
+    .latest-articals-div .sidebar2 div{
+        margin: .2rem;
+    }
+    .latest-articals-div .sidebar2 .adver{
+        width: 90%;
+        height: 500px;
+        border: 2px solid black;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .latest-articals-div .sidebar2 .adver img{
+        width:100%;
+        background-size: cover;
+    }
+    
+    .latest-articals-div .sidebar2 .adver button{
+        width: 90%;
+        background-color: rgb(86, 136, 245);
+        padding: 10px;
+        color: white;
+        margin: 10px;
+        border-radius: 10px;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .home-stories-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: 2px solid black;
+        
+    }
+    .home-stories-footer a{
+        text-decoration: none;
+    }
+    .home-stories-footer .home_left{
+        width: 70%;
+        padding: 1rem;
+        margin: 0rem auto;
+        font-size: 14px;
+    }
+    .home-stories-footer .home_left img{
+        width: 100%;
+    }
+    .new-stories-heading{
+       text-align: center;
+       font-size: 1.5rem;
+    }
+
+}

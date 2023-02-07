@@ -92,3 +92,131 @@
 .page_card2 .adver p{
     margin: 10px;
 }
+@media only screen and (min-width:500px)  and (max-width:800px){
+
+    .page_heading{
+        text-align: center;
+        text-decoration: 4px underline red;
+        font-weight: bold;
+    }
+    .page_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .page_card1{
+        width: 50%;
+        border: 3px solid black;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .page_card1 img{
+        width: 100%;
+        margin-top: 2rem;
+        height: 300px;
+    }
+    .page_card2{
+        width: 25%;
+        border: 3px solid black;
+        padding: .5rem;
+        height: fit-content;
+    }
+    .page_card2 img{
+        width: 100%;
+    }
+    .page_card2 .adver{
+        width: 100%;
+        height: fit-content;
+        border: 2px solid black;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page_card2 .adver img{
+        width:100%;
+        background-size: cover;
+    }
+    
+    .page_card2 .adver button{
+        width: 90%;
+        background-color: rgb(86, 136, 245);
+        padding: 10px;
+        color: white;
+        margin: 10px;
+        border-radius: 10px;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .page_card2 .adver p{
+        margin: 10px;
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width:499px){
+
+    .page_heading{
+        font-size: 1.5rem;
+        margin: 1rem 1rem;
+        text-align: center;
+        text-decoration: 4px underline red;
+        font-weight: bold;
+    }
+    .page_container{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .page_card1{
+        width: 80%;
+        border: 3px solid black;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+    .page_card1 img{
+        width: 80%;
+        margin-top: 2rem;
+        height: 200px;
+    }
+    .page_card2{
+        width: 80%;
+        border: 3px solid black;
+        padding: .5rem;
+        height: fit-content;
+        margin: 1rem auto;
+
+    }
+    .page_card2 img{
+        width: 80%;
+    }
+    .page_card2 .adver{
+        width: 100%;
+        height: fit-content;
+        border: 2px solid black;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page_card2 .adver img{
+        width:100%;
+        background-size: cover;
+    }
+    
+    .page_card2 .adver button{
+        width: 90%;
+        background-color: rgb(86, 136, 245);
+        padding: 10px;
+        color: white;
+        margin: 10px;
+        border-radius: 10px;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .page_card2 .adver p{
+        margin: 10px;
+        font-size: .8rem;
+    }
+}

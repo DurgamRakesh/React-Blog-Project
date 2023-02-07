@@ -139,14 +139,14 @@ const Home = () => {
             <p>Start your journey of success
               Personalised Coding Programs to make coding easier for you
               Want to know how PrepBytes can help you?</p>
-              <div><button>Cilck Here</button></div>
+              <div><button>Apply Now</button></div>
           </a>
           
         </div>
       </div>
       </div>
       </div>
-      <h1>Latest Stories</h1>
+      <h1 className='new-stories-heading'>New Stories</h1>
       <div className='home-stories-footer'>
       <div className="home_left">
         {
