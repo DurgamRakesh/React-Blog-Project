@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.header p {
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 2.2rem;
+    font-weight: lighter;
+    margin-right: 5px;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: bold;
+}

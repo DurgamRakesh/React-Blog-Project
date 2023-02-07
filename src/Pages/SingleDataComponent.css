@@ -1,0 +1,16 @@
+.singledata-div{
+    text-align: center;
+    height: fit-content;
+    padding: 1rem;
+}
+.singledata-div h1{
+    margin: 1rem;
+    text-decoration: underline purple 3px;
+}
+.singledata-div img{
+    width: 60%;
+    margin: .5rem;
+}
+.singledata-div p{
+    margin: 2rem;
+}

@@ -1,0 +1,149 @@
+.containerfor_3cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.imgdiv-1{
+    width: 55%;
+}
+.imgdiv-1 img{
+    width: 100%; 
+    border-radius: 10px;
+    height: 100%;
+}
+.imgdiv-2{
+    width: 40%;
+}
+.second_card{
+    margin: 5px;
+}
+.third_card{
+    margin: 5px;
+}
+.imgdiv-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgdiv-2 img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.latest-stories-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1.5rem;
+}
+.latest-s-head{
+    text-decoration: underline 2px  red;
+    padding: .3rem;
+}
+.latest-stories-div .home_left_section{
+    width: 22%;
+    margin: 1rem;
+    height: 380px;
+}
+.latest-stories-div .home_left_section img{
+    width: 100%;
+}
+.latest-stories-div .home_left_section h4{
+    margin: .5rem;
+    color: black;
+    text-decoration: underline 1px red;
+}
+.latest-stories-div .home_left_section a{
+    text-decoration: none;
+}
+.latest-stories-div .home_left_section p{
+    color: black;
+    font-size: 16px;
+}
+.latest-stories-div hr{
+    display: none;
+}
+.latest-articals-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.latest-articals-div a{
+    text-decoration: none;
+}
+.latest-articals-div .rightbar2{
+    width: 60%;
+}
+.latest-articals-div .rightbar2 h1{
+    margin: 1rem;
+    text-decoration: underline 2px red;
+}
+.latest-articals-div .rightbar2 div{
+    margin: 1rem;
+}
+.latest-articals-div .rightbar2 div img{
+    width: 50%;
+}
+.latest-articals-div .rightbar2 div h3 ,p{
+    color: black;
+    margin: .5rem;
+}
+
+.latest-articals-div .sidebar2{
+    width: 20%;
+    border: 2px solid black;
+}
+.latest-articals-div .sidebar2 img{
+    width: 80%;
+}
+.latest-articals-div .sidebar2 div{
+    margin: .2rem;
+}
+.latest-articals-div .sidebar2 .adver{
+    width: 70%;
+    height: 400px;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.latest-articals-div .sidebar2 .adver img{
+    width:100%;
+    background-size: cover;
+}
+
+.latest-articals-div .sidebar2 .adver button{
+    width: 90%;
+    background-color: rgb(86, 136, 245);
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.latest-articals-div .sidebar2 .adver p{
+    margin: 10px;
+}
+.home-stories-footer{
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+.home-stories-footer a{
+    text-decoration: none;
+}
+.home-stories-footer .home_left{
+    width: 30%;
+    margin: 1.5rem;
+}
+.home-stories-footer .home_left img{
+    width: 100%;
+}
